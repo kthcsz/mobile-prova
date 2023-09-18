@@ -1,0 +1,16 @@
+@media screen and (min-width:808px){
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+    .lista-rodape__titulo{
+        padding: 1em;
+    }
+    .lista-rodape__link{
+        text-decoration: none;
+        font-size: 18px;
+        }
+    .lista-rodape__itens{
+        align-items: center;
+    }
+}
