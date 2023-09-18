@@ -18,10 +18,24 @@
     border: 1px solid var(#000000);
     border-radius: 24px;
     width: 90%;
+    margin: 0 5px;
 }
 .contato__email::placeholder{
     font-family: var(---fonte-principal);
     color: var(--titulo);
     text-align: center;
     color: var(--titulo);
+}
+@media screen and(min-width:808px){
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contato__email{
+        width: 50%;
+    }
+    .contato__titulo{
+        font-size: 20px;
+    }
 }
