@@ -6,6 +6,7 @@
         justify-content: space-around;
     }
     .lista-rodape__titulo{
+        display: flex;
         padding: 1em;
     }
     .lista-rodape__link{
