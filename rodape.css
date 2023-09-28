@@ -3,10 +3,10 @@
 }
 @media screen and (min-width:808px){
     .rodape{
+        display: flex;
         justify-content: space-around;
     }
     .lista-rodape__titulo{
-        display: flex;
         padding: 1em;
     }
     .lista-rodape__link{
