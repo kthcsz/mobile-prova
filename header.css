@@ -58,7 +58,10 @@
 .container__titulo{
     display: none;
 }
-@media screen and (min-width: 1024px) {
+.opções{
+    display: none;
+}
+@media screen and (min-width: 808px) {
     .container__titulo,
     .container__titulo--negrito{
         font-family: var(--fonte-secundaria);
@@ -100,112 +103,3 @@
     .opções__botão{
         display: none;
     }
-
-    
-
-}.cabeçalho__menu-quadriculas{
-    width: 60px;
-    height: 60px;
-    background-image: url("icons8-cupcake-30.png");
-    background-repeat: no-repeat;
-    display: inline-block;
-    background-position: center;
-}
-.cabeçalho{
-    background-color: var(--cor-do-menu);
-    border-radius: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-.container{
-    display: flex;
-    align-items: center;
-}
-.lista-menu{
-    display: none;
-    position: absolute;
-    top: 100%;
-    width: 30vw;
-}
-.container__botao:checked~.lista-menu{
-    display: block;
-}
-.lista-menu__titulo,
-.lista-menu__item{
-    padding: 1em;
-    background-color: var(--cor-do-menu--fundo);
-    text-transform: uppercase;
-}
-
-.lista-menu__titulo{
-    color: var(#000000);
-}
-.lista-menu__link-1{
-    color: var(--link-1);
-    text-decoration: none;
-}
-.lista-menu__link-2{
-    color: var(--link-2);
-    text-decoration: none;
-}
-.lista-menu__link-3{
-    color: var(--link-3);
-    text-decoration: none;
-}
-.container__botao{
-    display: none;
-}
-.container__titulo{
-    font-size: 14px;
-}
-.container__titulo{
-    display: none;
-}
-@media screen and (min-width: 1024px) {
-    .container__titulo,
-    .container__titulo--negrito{
-        font-family: var(--fonte-secundaria);
-        font-family: 'Fasthand', cursive;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Playfair Display', serif;
-        font-size: 30px;
-    }
-    .container__titulo{
-        font-weight: 400;
-        display: block;
-        color: var(--cor-do-menu-fundo);
-
-    }
-    .container__titulo--negrito{
-        font-weight: 700;
-    }
-    .opções{
-        display: flex;
-    }
-    .opções__item{
-        padding: 0 1em;
-        text-decoration: uppercase;
-    }
-    .opções__link{
-        text-decoration: none;
-        color: var(--link-1);
-    }
-    .cabeçalho__menu-quadriculas{
-        display: none;
-    }
-    .container__imagem-1{
-        display: none;
-    }
-    .opções__botão:checked~.lista-menu{
-        display: block;
-        width: auto;
-    }
-    .opções__botão{
-        display: none;
-    }
-
-    
-
-}
