@@ -30,10 +30,19 @@
                 <img src="icons8-chiclete-de-princesa-64.png" alt="Logo do site" class="container__imagem">
                 <h2 class="contato__titulo"><b class="container__titulo--negrito">Doçuras</b>da Jujuba</h2>
         </div>
-        <ul class="opções">
-            <li class="opções__item">Categorias</li>
-            <li class="opções__item"><a href="#" class="opções__link">favoritos</a></li>
-            <li class="opções__item"><a href="#" class="opções__link">Escolha</a></li>
+            <ul class="opções">
+            <input type="checkbox" id="opções-menu"class="opções__botão">
+
+            <label for="opções-menu">
+                <ul class="opções__item">Categorias</ul>
+            </label>
+                    <ul class="lista-menu">
+                    <ul type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-1">Bolos</a></ul>
+                    <ul type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-2">Barcas</a></ul>
+                    <ul type="circle" class="lista-menu__item"><a href="#" class="lista-menu__link-3">Pote da felicidade</a></ul>
+                </ul>
+            <ul class="opções__item"><a href="#" class="opções__link">Favoritos</a></ul>
+            <ul class="opções__item"><a href="#" class="opções__link">Escolhas</a></ul>
         </ul>
             <div class="container">
                 <a href="#"><img src="icons8-pasta-de-favoritos-30.png" alt="meus favoritos" class="container__imagem"></a>
@@ -50,13 +59,13 @@
         <div class="swiper">
         <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="oie_KAufZcM3vH9I.jpg"alt="Ovo de colher ninho com nutella"></div>
-            <div class="swiper-slide"><img src="oie_mYlEPhExvSzc.jpg"alt="Barca de guloseimas"></div>
-            <div class="swiper-slide"><img src="oie_jpg.png"alt="Copo da felicidade de oreo"></div>
-            <div class="swiper-slide"><img src="oie_k2d8Qv9hBsIw.jpg"alt="bolo de brigadeiro"></div>
-            <div class="swiper-slide"><img src="oie_16238298d72zI1g.jpg"alt="copo banoffe"></div>
-            <div class="swiper-slide"><img src="oie_gsgXa1PNUTNq.jpg"alt="ovo ferrero"></div>
-            <div class="swiper-slide"><img src="oie_1623211EFrIdowI.jpg"alt="bolo caseiro dois amores"></div>
+            <div class="swiper-slide"><img class="edite-1" src="oie_KAufZcM3vH9I.jpg"alt="Ovo de colher ninho com nutella"></div>
+            <div class="swiper-slide"><img class="edite-2" src="oie_mYlEPhExvSzc.jpg"alt="Barca de guloseimas"></div>
+            <div class="swiper-slide"><img class="edite-3" src="oie_jpg.png"alt="Copo da felicidade de oreo"></div>
+            <div class="swiper-slide"><img class="edite-4" src="oie_k2d8Qv9hBsIw.jpg"alt="bolo de brigadeiro"></div>
+            <div class="swiper-slide"><img class="edite-5" src="oie_16238298d72zI1g.jpg"alt="copo banoffe"></div>
+            <div class="swiper-slide"><img class="edite-6" src="oie_gsgXa1PNUTNq.jpg"alt="ovo ferrero"></div>
+            <div class="swiper-slide"><img class="edite-7" src="oie_1623211EFrIdowI.jpg"alt="bolo caseiro dois amores"></div>
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-button-prev"></div>
@@ -72,7 +81,8 @@
             <img src="oie_mYlEPhExvSzc.jpg" class="descrição__imagem" alt="Cartão">
         </div>
         <div class="card__botões">
-                  <a href="#" class="botões__ancora">Saiba mais</a>
+            <ul class="botões">
+                <a href="#" class="botões__ancora">Saiba mais</a>
         </div>
     </div>
     </section>
@@ -113,45 +123,49 @@
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
     <footer class="rodape">
-        <h2 class="rodape__titulo">Meios de contato</h2>
+        <h2 class="rodape__titulo"><i>Meios de contato</i></h2>
         <ul class="lista-rodape">
-            <li class="lista-rodape__titulo">Redes sociais</li>
-            <li class="lista-rodape__itens">
+            <ul class="lista-rodape__titulo">Redes Sociais</ul>
+            <ul class="lista-rodape__itens">
                 <img src="icons8-instagram-50.png" alt="instagram">
-                     <a href="#" class="lista-rodape__link">Instagram</a>
-            </li>
-            <li class="lista-rodape__itens">
+                    <a href="#" class="lista-rodape__link">Instagram</a>
+            </ul>
+            <ul class="lista-rodape__itens">
                 <img src="icons8-twitter-50.png" alt="Twitter">
-                     <a href="#" class="lista-rodape__link">Twitter</a>
-            </li>
-            <li class="lista-rodape__itens">
-                <img src="icons8-facebook-50.png" alt="facebook">
-                     <a href="#" class="lista-rodape__link">Facebook</a>
-            </li>
+                    <a href="#" class="lista-rodape__link">Twitter</a>
+            </ul>
+            <ul class="lista-rodape__itens">
+                <img src="icons8-facebook-50.png" alt="Facebook">
+                    <a href="#" class="lista-rodape__link">Facebook</a>
+            </ul>
         </ul>
         <ul class="lista-rodape">
-            <li class="lista-rodape__titulo">Outros</li>
-            <li class="lista-rodape__itens">
+            <ul class="lista-rodape__titulo">Outros</ul>
+            <ul class="lista-rodape__itens">
                 <img src="icons8-nova-mensagem-50.png" alt="Email">
-                     <a href="#" class="lista-rodape__link">Email</a>
-            </li>
-            <li class="lista-rodape__itens">
+                    <a href="#" class="lista-rodape__link">Email</a>
+            </ul>
+            <ul class="lista-rodape__itens">
                 <img src="icons8-whatsapp-50.png" alt="WhatsApp">
-                     <a href="#" class="lista-rodape__link">WhatsApp</a>
-            </li>
+                    <a href="#" class="lista-rodape__link">WhatsApp</a>
+            </ul>
     </footer>
-    <section>
-<span id="dots">Mais </span><span id="more">doces</span>
-<button onclick="myFunction()" id="myBtn">Read more</button>
-    </section>
+</script> 
+</section>
+        <section>
+    <span id="dots">Mais </span><span id="more">doces</span>
+    <button onclick="myFunction()" id="myBtn">Read more</button>
+        </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper',{
-        spaceBetween: 10,
-        slidesPerView: 3, 
-        pagination: {
-            el:'.swiper-pagination',
-            type:'bullets',
-        },
-        });
-    </script>
+        <script>
+            const swiper = new Swiper('.swiper',{
+            spaceBetween: 10,
+            slidesPerView: 3, 
+            pagination: {
+                el:'.swiper-pagination',
+                type:'bullets',
+            },
+            });
+        </script>
+</body>
+</html>
