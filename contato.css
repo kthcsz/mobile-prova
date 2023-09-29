@@ -2,8 +2,8 @@
     background-color: var(--cor-de--fundo);
     padding: 1em;
 }
-.contato_titulo, .contato_texto{
-    color: var(#000000);
+.contato__titulo, .contato__texto{
+    color: var(--cor-do-menu-fundo);
 }
 .contato__titulo{
     font-size: 18px;
@@ -26,7 +26,7 @@
     text-align: center;
     color: var(--titulo);
 }
-@media screen and(min-width:808px){
+@media screen and (min-width:808px){
     .contato{
         display: flex;
         justify-content: center;
